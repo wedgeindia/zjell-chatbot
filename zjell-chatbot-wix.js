@@ -373,8 +373,8 @@ Rules: Be concise (2-3 sentences max unless detail requested). Professional and 
     addMsg('bot', `Which <strong style="color:#f6ad55">city</strong> are you based in?`, [
       { l:'Mumbai',      c:'m', fn: () => saveField('city','Mumbai') },
       { l:'Delhi',       c:'m', fn: () => saveField('city','Delhi') },
-      { l:'Lahore',      c:'m', fn: () => saveField('city','Lahore') },
-      { l:'Karachi',     c:'m', fn: () => saveField('city','Karachi') },
+      { l:'London',      c:'m', fn: () => saveField('city','London') },
+      { l:'Guangzhou',     c:'m', fn: () => saveField('city','Guangzhou') },
       { l:'Nairobi',     c:'m', fn: () => saveField('city','Nairobi') },
       { l:'Dubai',       c:'m', fn: () => saveField('city','Dubai') },
       { l:'Other city…', c:'m', fn: () => addMsg('bot','Type your city below and press Enter.') },
